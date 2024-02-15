@@ -39,7 +39,8 @@ storage {
     /// The computed merkle root which is to be verified against.
     merkle_root: Option<b256> = Option::None,
     /// The number of leaves in the merkle tree
-    number_of_leaves: u64 = 0,
+    number_of_leaves: u64 = 5,
+    max_number_of_leaves: u64 = 10,
 }
 
 impl AirdropDistributor for Contract {
