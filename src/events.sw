@@ -9,6 +9,11 @@ pub struct ClaimEvent {
     to: Identity,
 }
 
+pub struct CheckEvent {
+    /// The quantity of an asset which is to be transferred to the user.
+    amount: u64,
+}
+
 pub struct ClawbackEvent {
     /// The quantity of an asset which will be returned after the claiming period has ended.
     amount: u64,
