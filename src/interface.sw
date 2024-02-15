@@ -60,6 +60,8 @@ abi AirdropDistributor {
     );
 }
 
+
+
 abi Info {
     /// Returns the user which has the ability to clawback any unclaimed coins.
     ///
