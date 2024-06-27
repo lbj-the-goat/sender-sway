@@ -8,6 +8,7 @@ pub enum ClaimState {
     Claimed: u64,
 }
 
+
 impl core::ops::Eq for ClaimState {
     fn eq(self, other: Self) -> bool {
         match (self, other) {
